@@ -32,7 +32,7 @@ while (success_prev & success_next):
     number_of_white_pix = np.sum(dest_xor == 255)
     cv2.imshow('Bitwise XOR', dest_xor)
     if (number_of_white_pix > 100): # random threshold
-        arr.append(seconds * (1/fps))
+        arr.append(frame_counter * (1/fps))
 
     success_prev, image_prev = vidcap.read()
     frame_counter += 1
