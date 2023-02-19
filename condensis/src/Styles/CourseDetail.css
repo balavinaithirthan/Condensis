@@ -1,0 +1,24 @@
+#lecture_card{
+    display: flex;
+    flex-direction: row;
+
+}
+#class_title{
+    /*color: black;*/
+    text-underline-offset: 10px;
+    text-decoration-color: #17cf97;
+    font-size: 48px;
+
+    /*padding: 0px 20px 0px 20px;*/
+
+}
+#CourseDetail_Main{
+    margin: 30px;
+    margin-left: 250px;
+    /*padding: 0px 250px 0px 0px;*/
+
+}
+#divider{
+    border-top: 3px dashed #bbb;
+    text-decoration-color: #17cf97;
+}
