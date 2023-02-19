@@ -35,7 +35,7 @@ export default function Home() {
     })();
   
     const onChange = (e) => {
-      var value = e.target.value;
+      var value = e.target.value.toLowerCase();
       setPrefix(value);
       var words = value.split(" ");
       var trie_prefix = words[words.length - 1].toLowerCase();
@@ -63,8 +63,8 @@ export default function Home() {
       }
       if (e.keyCode === 13) {
         console.log(suggestion);
-        console.log(suggestion === "stanford")
-        if (suggestion.toLowerCase() === "stanford") {
+        console.log(suggestion.toLowerCase() === "stanford")
+        if (suggestion === "stanford") {
             Navigate("/Stanford");
         }
       }

@@ -35,10 +35,10 @@ export default function Home() {
     })();
   
     const onChange = (e) => {
-      var value = e.target.value;
+      var value = e.target.value.toLower
       setPrefix(value);
       var words = value.split(" ");
-      var trie_prefix = words[words.length - 1].toLowerCase();
+      var trie_prefix = words[words.length - 1];
       var found_words = myTrie.find(trie_prefix).sort((a, b) => {
         return a.length - b.length;
       });

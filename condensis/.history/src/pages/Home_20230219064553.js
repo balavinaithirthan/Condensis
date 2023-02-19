@@ -35,7 +35,7 @@ export default function Home() {
     })();
   
     const onChange = (e) => {
-      var value = e.target.value;
+      var value = e.target.value.toLowerCase();
       setPrefix(value);
       var words = value.split(" ");
       var trie_prefix = words[words.length - 1].toLowerCase();
