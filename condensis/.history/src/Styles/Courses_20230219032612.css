@@ -1,0 +1,8 @@
+#courses {
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
