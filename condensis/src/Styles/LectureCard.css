@@ -2,3 +2,7 @@
     margin: 10px;
 
 }
+a {
+    color: white !important; /* blue colors for links too */
+    text-decoration: inherit !important; /* no underline */
+}
