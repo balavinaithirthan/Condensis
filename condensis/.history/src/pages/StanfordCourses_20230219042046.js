@@ -30,18 +30,18 @@ export default function StanfordCourses() {
                     <CCardText>
                     Computer Organization and Systems.
                     </CCardText>
-                    <CButton href="/course_detail/1" color="danger">View more</CButton>
+                    <CButton href="/course_detail/0" color="danger">View more</CButton>
                 </CCardBody>
             </CCard>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <CCard style={{ width: '18rem' }}>
-                <CCardImage orientation="top" src={stanford} />
+                <CCardImage orientation="top" src={course1} />
                 <CCardBody>
                     <CCardTitle>CS 224N</CCardTitle>
                     <CCardText>
                     Natural Language Processing with Deep Learning.
                     </CCardText>
-                    <CButton href="/course_detail/2" color="danger">View more</CButton>
+                    <CButton href="/course_detail/0" color="danger">View more</CButton>
                 </CCardBody>
             </CCard>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>

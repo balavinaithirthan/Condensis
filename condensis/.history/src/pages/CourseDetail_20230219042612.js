@@ -3,6 +3,7 @@ import LectureCard from "../components/LectureCard";
 import { CCard, CCardBody, CCardFooter, CCardGroup, CCardHeader, CCardImage, CCardLink, CCardSubtitle, CCardText, CCardTitle } from '@coreui/react'
 import '../Styles/CourseDetail.css'
 import '@coreui/coreui/dist/css/coreui.min.css'
+
 import Popup from 'reactjs-popup';
 
 var class_info = [{

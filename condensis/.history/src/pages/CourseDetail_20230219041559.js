@@ -3,8 +3,6 @@ import LectureCard from "../components/LectureCard";
 import { CCard, CCardBody, CCardFooter, CCardGroup, CCardHeader, CCardImage, CCardLink, CCardSubtitle, CCardText, CCardTitle } from '@coreui/react'
 import '../Styles/CourseDetail.css'
 import '@coreui/coreui/dist/css/coreui.min.css'
-import Popup from 'reactjs-popup';
-
 var class_info = [{
     "Title": "CS 106B",
     "Prof": "Keith Schwarz",
@@ -20,7 +18,7 @@ var class_info = [{
 
 }, {
     "Title": "CS 224N",
-    "Prof": "Chris Manning",
+    "Prof": "Jerry Cain",
     "Last_updated": "Feb 16, 2023",
     "Quarter": "Winter 2023",
     "Lectures": [1, 3]
