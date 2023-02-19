@@ -11,7 +11,7 @@ export default function StanfordCourses() {
             <h1 id="stanfordtitle">Stanford University Courses</h1>
             <div id="courses">
             <CCard style={{ width: '18rem' }}>
-                <CCardImage orientation="top" src={course1} />
+                <CCardImage orientation="top" src="/images/106bthumbnail" />
                 <CCardBody>
                     <CCardTitle>CS 106B</CCardTitle>
                     <CCardText>

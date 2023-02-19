@@ -1,0 +1,12 @@
+. {
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+#search {
+    position: relative;
+    padding-top: 15px;
+    bottom: 220px;
+}

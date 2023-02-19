@@ -15,7 +15,7 @@ nav{
 
 #navbar li {
   list-style: none;
-  padding: 10px 20px;
+  padding: 10px0 20px;
   position: relative;
 }
 
@@ -55,6 +55,7 @@ li {
   color: black;
   justify-content: left;
   text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20pt;
   padding: 0px 250px 0px 0px;
 }

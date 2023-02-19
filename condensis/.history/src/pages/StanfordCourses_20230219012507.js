@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/StanfordCourses.css";
 import { CCard, CCardImage, CCardBody, CCardTitle, CCardText, CButton, CCardHeader } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css';
-import course1 from "../images/106bthumbnail.jpg"
+import "../images/106bthumbnail"
 
 
 export default function StanfordCourses() {
@@ -11,7 +11,7 @@ export default function StanfordCourses() {
             <h1 id="stanfordtitle">Stanford University Courses</h1>
             <div id="courses">
             <CCard style={{ width: '18rem' }}>
-                <CCardImage orientation="top" src={course1} />
+                <CCardImage orientation="top" src="../images/106bthumbnail.jpg" />
                 <CCardBody>
                     <CCardTitle>CS 106B</CCardTitle>
                     <CCardText>

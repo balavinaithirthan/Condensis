@@ -1,11 +1,4 @@
-. {
-    display: flex;
-    flex-direction: column;
-
-}
-
 #collegeselect {
-    font-family:'Courier New', Courier, monospace;
     text-align: center;
     padding: 0px;
     color: black;
@@ -16,8 +9,8 @@
 }
 
 #search {
-    position: relative;
+    position:relative;
     padding-top: 15px;
     bottom: 220px;
-    right: 9.5%;
+    
 }
