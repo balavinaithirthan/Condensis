@@ -41,7 +41,7 @@ export default function Invoice() {
         <div class="col-md-6">
           <CFormLabel for="exampleInputEmail1" class="form-label">Your Name</CFormLabel>
           <CFormInput onChange={(e) => setName(e.target.value)} type="text" class="form-control" id="InputName" aria-describedby="emailHelp" />
-          <CFormText id="emailHelp" id="email-help">We'll never share your email with anyone else.</CFormText>
+          <CFormText id="emailHelp">We'll never share your email with anyone else.</CFormText>
         </div>
 
         <div>{' '}</div>
