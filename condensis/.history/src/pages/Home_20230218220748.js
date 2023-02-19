@@ -1,10 +1,10 @@
 import React from "react";
 import "../Styles/Home.css";
-import Trie from "../components/trie";
+import Trie from "./components/trie";
 import { useState } from "react";
 
 const dictionary = {
-    words: ["Stanford", "MIT", "Harvard"]
+    words: ['hello','helium','world','car','carpet','test','this','that','those','working','is']
   }
 
 export default function Home() {
@@ -62,23 +62,8 @@ export default function Home() {
   
     return(
         <div>
-        <div className="Search">
-      <input
-        type="text"
-        name="search-bar"
-        id="search-bar"
-        placeholder="Search..."
-        value={prefix}
-        onChange={onChange}
-        onKeyDown={handleKeyDown}
-      />
-      <input
-        type="text"
-        name="search-bar"
-        id="search-bar2"
-        value={suggestion}
-      />
-    </div>
-    </div>
+        <div>
+            <h1>Home</h1>
+        </div>
     );
 }

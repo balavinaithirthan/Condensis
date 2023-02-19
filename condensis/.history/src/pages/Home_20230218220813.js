@@ -4,7 +4,7 @@ import Trie from "../components/trie";
 import { useState } from "react";
 
 const dictionary = {
-    words: ["Stanford", "MIT", "Harvard"]
+    words: ['hello','helium','world','car','carpet','test','this','that','those','working','is']
   }
 
 export default function Home() {
@@ -62,6 +62,9 @@ export default function Home() {
   
     return(
         <div>
+        <div>
+            <h1>Home</h1>
+        </div>
         <div className="Search">
       <input
         type="text"
