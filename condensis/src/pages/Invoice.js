@@ -52,34 +52,34 @@ export default function Invoice() {
               <MDBRow>
                 <MDBCol md='10' lg='6' className='order-2 order-lg-1 d-flex flex-column align-items-center'>
     
-                  <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Create and Send an Invoice (Powered by Checkbook.io)</p>
+                  <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Invoice (Powered by Checkbook.io)</p>
 
                   <p> </p>
 
-                  <div className="d-flex flex-row align-items-center mb-4 ">
+                  <div className="d-flex flex-row align-items-left mb-4 ">
                     <MDBIcon fas icon="user me-3" size='lg'/>
-                    <MDBInput label='Your Name' id='form1' type='text' className='w-100' onChange={(e) => setName(e.target.value)}/>
+                    <MDBInput placeholder="Your Name" label='Your Name' id='form1' type='text' className='w-100' onChange={(e) => setName(e.target.value)}/>
                   </div>
 
                   <p> </p>
     
-                  <div className="d-flex flex-row align-items-center mb-4">
+                  <div className="d-flex flex-row align-items-left mb-4">
                     <MDBIcon fas icon="envelope me-3" size='lg'/>
-                    <MDBInput label='Recipient Email' id='form2' type='email' onChange={(e) => setEmail(e.target.value)}/>
+                    <MDBInput placeholder="Recipient Email" label='Recipient Email' id='form2' type='email' onChange={(e) => setEmail(e.target.value)}/>
                   </div>
 
                   <p> </p>
     
-                  <div className="d-flex flex-row align-items-center mb-4">
+                  <div className="d-flex flex-row align-items-left mb-4">
                     <MDBIcon fas icon="lock me-3" size='lg'/>
-                    <MDBInput label='Amount' id='form3' type='number' onChange={(e) => setAmount(e.target.value)}/>
+                    <MDBInput placeholder="Amount" label='Amount' id='form3' type='number' onChange={(e) => setAmount(e.target.value)}/>
                   </div>
 
                   <p> </p>
     
-                  <div className="d-flex flex-row align-items-center mb-4">
+                  <div className="d-flex flex-row align-items-left mb-4">
                     <MDBIcon fas icon="key me-3" size='lg'/>
-                    <MDBInput label='Description' id='form4' type='text' onChange={(e) => setDescription(e.target.value)}/>
+                    <MDBInput placeholder="Description" label='Description' id='form4' type='text' onChange={(e) => setDescription(e.target.value)}/>
                   </div>
 
                   <p> </p>

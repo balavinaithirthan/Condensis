@@ -15,6 +15,7 @@ function Navbar() {
                         <li><a href='/'>Home</a></li>
                         <li><a href="/Courses">Courses</a></li>
                         <li><a href="/About">About</a></li>
+                        <li><a href="/Invoice">Invoice</a></li>
                     </ul>
                 </div>
             </nav>
