@@ -3,7 +3,6 @@ import LectureCard from "../components/LectureCard";
 import { CCard, CCardBody, CCardFooter, CCardGroup, CCardHeader, CCardImage, CCardLink, CCardSubtitle, CCardText, CCardTitle } from '@coreui/react'
 import '../Styles/CourseDetail.css'
 import '@coreui/coreui/dist/css/coreui.min.css'
-import Popup from 'reactjs-popup';
 
 var class_info = [{
     "Title": "CS 106B",
@@ -48,12 +47,18 @@ class CourseDetail extends Component {
                     <h5>{this.class_info.Quarter}</h5>
                 </div>
                 <hr id="divider"/>
+                {this.props.course_id === 0 ?
+                    <div id="lecture_card">
+                        {this.class_info.Lectures.map(function(object, i){
+                            return <LectureCard lecture_id={object}/>;
+                        })}
+                    </div> :
+                    <h4>
+                        Lectures coming soon
+                    </h4>
+                }
 
-                <div id="lecture_card">
-                    {this.class_info.Lectures.map(function(object, i){
-                        return <LectureCard lecture_id={object}/>;
-                    })}
-                </div>
+
             </div>
         );
     }
