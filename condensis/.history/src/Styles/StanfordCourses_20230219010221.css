@@ -11,7 +11,4 @@
 
 #courses {
     padding: 100px;
-    display: flex;
-    flex-direction: row;
-    padding-right: 20px;
 }
