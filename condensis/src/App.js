@@ -9,12 +9,10 @@ import StanfordCourses from "./pages/StanfordCourses";
 
 
 export default function App() {
-
   return (
     <div className="App">
       
       <Router>
-        
         <Navbar/>
         
         <Routes>
