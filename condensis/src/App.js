@@ -20,14 +20,15 @@ export default function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/Courses" element={<Courses/>}/>
           <Route exact path="/About" element={<About/>}/>
-      {/*    /!*<Route exact path="/course_detail/:id" element={<CourseDetail/>}/>*!/*/}
-            <Route exact path="/course_detail/1" element={<CourseDetail course_id={1} />}/>
-            <Route exact path="/course_detail/2" element={<CourseDetail course_id={2} />}/>
-            <Route exact path="/course_detail/3" element={<CourseDetail course_id={3} />}/>
+          <Route exact path="/course_detail/0" element={<CourseDetail course_id={0} />}/>
 
-            {/*<Route  exact path="/course_detail/:id" elemnt={(props) => <CourseDetail course_id={props.match.params.id} />}/>*/}
+          <Route exact path="/course_detail/1" element={<CourseDetail course_id={1} />}/>
+          <Route exact path="/course_detail/2" element={<CourseDetail course_id={2} />}/>
 
         </Routes>
+
+            {/*<Route  exact path="/course_detail/:id" element={<CourseDetail />}/>*/}
+
       </Router>
     </div>
     
