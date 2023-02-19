@@ -9,11 +9,12 @@ class PDF extends Component {
     constructor(props) {
         super(props);
         this.pdf = pdf_info[this.props.pdf_id]; 
+        console.log(this.pdf);
     }
     
     render() { return (
     <div className="main">
-        <iframe src={pdf_info[this.pdf_id]}></iframe>
+        <iframe src={this.pdf} style={{ height: '2500px', width: '1px', minWidth: '100%', minHeight: '100%'}}></iframe>
     </div>
     );
     }
