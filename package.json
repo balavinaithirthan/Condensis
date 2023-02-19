@@ -3,6 +3,7 @@
     "@coreui/coreui": "^4.2.6",
     "@coreui/react": "^4.6.0",
     "bootstrap": "^5.2.3",
-    "react-bootstrap-validation": "^0.1.11"
+    "react-bootstrap-validation": "^0.1.11",
+    "react-pdf": "^6.2.2"
   }
 }

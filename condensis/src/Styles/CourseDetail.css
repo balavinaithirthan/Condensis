@@ -1,7 +1,8 @@
 #lecture_card{
     display: flex;
     flex-direction: row;
-
+    width: 100%;
+    flex-wrap: wrap;
 }
 #class_title{
     /*color: black;*/
