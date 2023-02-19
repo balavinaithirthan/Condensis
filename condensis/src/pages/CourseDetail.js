@@ -9,7 +9,7 @@ var class_info = [{
     "Prof": "Keith Schwarz",
     "Last_updated": "Feb 18, 2023",
     "Quarter": "Winter 2023",
-    "Lectures": [1, 3]
+    "Lectures": [0, 1, 2, 3, 4, 5, 6, 7, 8]
 }, {
     "Title": "CS 111",
     "Prof": "Nick Troppoli",
