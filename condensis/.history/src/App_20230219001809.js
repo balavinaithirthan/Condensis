@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes,
 import About from './pages/About';
 import Courses from './pages/Courses';
 import Home from "./pages/Home";
-import StanfordCourses from "./pages/StanfordCourses";
 
 
 export default function App() {
@@ -21,7 +20,7 @@ export default function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/Courses" element={<Courses/>}/>
           <Route exact path="/About" element={<About/>}/>
-          <Route exact path="/Stanford" element={<StanfordCourses/>}/>
+          <Route exact path="/Stanford" element={}
         </Routes>
       </Router>
     </div>

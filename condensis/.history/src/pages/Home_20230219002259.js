@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Home.css";
 import Trie from "../components/trie";
 import { useState } from "react";
-import {useNavigate} from "react-router-dom";
+import {Navigate} from "react";
 
 const dictionary = {
     words: ["stanford", "mit", "harvard"]
@@ -10,7 +10,7 @@ const dictionary = {
 
 export default function Home() {
 
-    const Navigate = useNavigate();
+    const 
 
     const [prefix, setPrefix] = useState("");
     const [suggestion, setSuggestion] = useState("");

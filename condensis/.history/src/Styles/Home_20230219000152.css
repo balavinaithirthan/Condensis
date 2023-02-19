@@ -4,7 +4,7 @@
     padding: 0px;
     color: black;
     position: relative;
-    top: 280px;
+    top: 400px;
     font-weight: bold;
     font-size: 15pt;
 }
@@ -12,6 +12,6 @@
 #search {
     position:relative;
     padding-top: 15px;
-    bottom: 220px;
+    bottom: 140px;
     right: 11%;
 }

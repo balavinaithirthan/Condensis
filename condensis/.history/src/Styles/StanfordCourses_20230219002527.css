@@ -1,17 +1,10 @@
-#collegeselect {
+#stanfordtitle {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     padding: 0px;
     color: black;
     position: relative;
-    top: 280px;
+    top: 30px;
     font-weight: bold;
-    font-size: 15pt;
-}
-
-#search {
-    position:relative;
-    padding-top: 15px;
-    bottom: 220px;
-    right: 11%;
+    font-size: 25pt;
 }

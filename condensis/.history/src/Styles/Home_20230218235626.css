@@ -1,0 +1,12 @@
+#collegeselect {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    position: relative;
+    top: 200px;
+}
+
+#search {
+    bottom: 700px;
+}

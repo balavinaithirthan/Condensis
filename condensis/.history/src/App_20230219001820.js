@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes,
 import About from './pages/About';
 import Courses from './pages/Courses';
 import Home from "./pages/Home";
-import StanfordCourses from "./pages/StanfordCourses";
 
 
 export default function App() {

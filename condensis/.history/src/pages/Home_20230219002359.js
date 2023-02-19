@@ -10,7 +10,7 @@ const dictionary = {
 
 export default function Home() {
 
-    const Navigate = useNavigate();
+    const navigate = useNavigate();
 
     const [prefix, setPrefix] = useState("");
     const [suggestion, setSuggestion] = useState("");

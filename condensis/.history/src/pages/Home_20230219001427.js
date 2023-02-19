@@ -2,15 +2,12 @@ import React from "react";
 import "../Styles/Home.css";
 import Trie from "../components/trie";
 import { useState } from "react";
-import {useNavigate} from "react-router-dom";
 
 const dictionary = {
     words: ["stanford", "mit", "harvard"]
   }
 
 export default function Home() {
-
-    const Navigate = useNavigate();
 
     const [prefix, setPrefix] = useState("");
     const [suggestion, setSuggestion] = useState("");
@@ -61,13 +58,7 @@ export default function Home() {
       if (e.keyCode === 39) {
         setPrefix(suggestion);
       }
-      if (e.keyCode === 13) {
-        console.log(suggestion);
-        console.log(suggestion === "stanford")
-        if (suggestion === "stanford") {
-            Navigate("/Stanford");
-        }
-      }
+      if (e.)
     };
   
     return(
