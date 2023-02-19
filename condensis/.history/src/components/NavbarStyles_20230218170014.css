@@ -2,8 +2,8 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #fff;
-  padding: 20px 840px 20px 120px;
+  background: #1b2430;
+  padding: 20px 0px 20px 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 }
 
@@ -23,26 +23,7 @@ nav{
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
-  color: black;
-  transition: 0.3s ease-in-out;
-}
-
-#navbar li a:hover {
-  color: black;
-}
-
-#navbar li a:hover {
-  color: #17cf97;
-}
-
-#navbar li a:hover::after {
-  content: "";
-  width: 65%;
-  height: 2px;
-  background: #17cf97;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
+  color: #fff;
 }
 
 li {
@@ -51,16 +32,9 @@ li {
 }
 
 #title {
-  color: black;
+  color:#fff;
   justify-content: left;
-  text-align: left;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20pt;
-  padding: 0px 350px 0px 0px;
-}
-
-#logo {
-  width: 60px;
-  height: 50px;
 }
 

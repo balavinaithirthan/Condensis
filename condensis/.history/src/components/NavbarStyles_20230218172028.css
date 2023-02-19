@@ -31,19 +31,7 @@ nav{
   color: black;
 }
 
-#navbar li a:hover {
-  color: #17cf97;
-}
 
-#navbar li a:hover::after {
-  content: "";
-  width: 65%;
-  height: 2px;
-  background: #17cf97;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-}
 
 li {
   list-style: none;

@@ -35,15 +35,7 @@ nav{
   color: #17cf97;
 }
 
-#navbar li a:hover::after {
-  content: "";
-  width: 65%;
-  height: 2px;
-  background: #17cf97;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-}
+#navbar li a:hover::after
 
 li {
   list-style: none;
