@@ -4,7 +4,7 @@ import Trie from "../components/trie";
 import { useState } from "react";
 
 const dictionary = {
-    words: ["stanford", "mit", "harvard"]
+    words: ["stanford", "mit", "Harvard"]
   }
 
 export default function Home() {
