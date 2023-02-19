@@ -61,9 +61,9 @@ class LectureCard extends Component {
                     <CCardBody>
                         <CCardTitle><a href={"/pdf/" + this.data.notes_id}>{this.data.Title}</a></CCardTitle>
                         <CCardSubtitle className="mb-2 text-medium-emphasis"><div style={{color: `#eeeeee`}}>{this.data.Date}</div></CCardSubtitle>
-                        <CCardText>
-                            {this.data.Preview}
-                        </CCardText>
+                        {/*<CCardText>*/}
+                        {/*    {this.data.Preview}*/}
+                        {/*</CCardText>*/}
 
                       </CCardBody>
                     </CCard>
