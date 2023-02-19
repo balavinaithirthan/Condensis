@@ -13,8 +13,7 @@ function Navbar() {
                 <div>
                     <ul id="navbar">
                         <li><a href='/'>Home</a></li>
-                        <li><a href="/Courses">Courses</a></li>
-                        <li><a href="/Invoice">Invoice</a></li>
+                        <li><a href="/Courses">Courses</a></li><li><a href="/Invoice">Invoice</a></li>
                         <li><a href="/About">About</a></li>
                         
                     </ul>

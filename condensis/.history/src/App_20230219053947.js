@@ -40,7 +40,7 @@ export default function App() {
 
         </Routes>
       </Router>
-      {/* </ThemeProvider> */}
+      </ThemeProvider>
     </div>
     
   );

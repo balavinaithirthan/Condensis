@@ -9,22 +9,22 @@ import CourseDetail from "./pages/CourseDetail";
 import StanfordCourses from "./pages/StanfordCourses";
 import CreateInvoice from "./pages/Invoice";
 
-// import { createTheme, ThemeProvider} from '@mui/material/styles';
+import { createTheme, ThemeProvider} from '@mui/material/styles';
 
-// const theme = createTheme({
-//   typography: {
-//     fontFamily: [
-//       'Sora',
-//       'sans-serif',
-//     ].join(','),
-//   },});
+const theme = createTheme({
+  typography: {
+    fontFamily: [
+      'Sora',
+      'sans-serif',
+    ].join(','),
+  },});
 
 
 export default function App() {
 
   return (
     <div className="App">
-    {/* <ThemeProvider theme={theme}> */}
+      <ThemeProvider theme={theme}>
       <Router>
         
         <Navbar/>
@@ -40,7 +40,7 @@ export default function App() {
 
         </Routes>
       </Router>
-      {/* </ThemeProvider> */}
+      </ThemeProvider>
     </div>
     
   );

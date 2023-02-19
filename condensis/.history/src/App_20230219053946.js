@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <div className="App">
-    {/* <ThemeProvider theme={theme}> */}
+    <ThemeProvider theme={theme}>
       <Router>
         
         <Navbar/>
@@ -40,7 +40,7 @@ export default function App() {
 
         </Routes>
       </Router>
-      {/* </ThemeProvider> */}
+      </ThemeProvider>
     </div>
     
   );
