@@ -1,0 +1,10 @@
+#about {
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+
+#about p {
+    padding-top: 3%;
+    font-size: 20pt;
+}

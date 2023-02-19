@@ -30,7 +30,7 @@ export default function StanfordCourses() {
                     <CCardText>
                     Computer Organization and Systems.
                     </CCardText>
-                    <CButton href="/course_detail/1" color="danger">View more</CButton>
+                    <CButton href="/course_detail/0" color="danger">View more</CButton>
                 </CCardBody>
             </CCard>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>

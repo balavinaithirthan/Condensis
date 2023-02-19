@@ -4,6 +4,7 @@ import { CCard, CCardBody, CCardFooter, CCardGroup, CCardHeader, CCardImage, CCa
 import '../Styles/CourseDetail.css'
 import '@coreui/coreui/dist/css/coreui.min.css'
 import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 var class_info = [{
     "Title": "CS 106B",
