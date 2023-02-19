@@ -1,17 +1,4 @@
 import React from "react";
-import {
-    MDBBtn,
-    MDBContainer,
-    MDBRow,
-    MDBCol,
-    MDBCard,
-    MDBCardBody,
-    MDBCardImage,
-    MDBInput,
-    MDBIcon,
-    MDBCheckbox
-  }
-  from 'mdb-react-ui-kit';
 import { useState } from "react";
 
 export default function Invoice() {
@@ -45,53 +32,37 @@ export default function Invoice() {
     };
 
     return (
-        <MDBContainer fluid>
-    
-          <MDBCard className='text-black m-5' style={{borderRadius: '25px'}}>
-            <MDBCardBody>
-              <MDBRow>
-                <MDBCol md='10' lg='6' className='order-2 order-lg-1 d-flex flex-column align-items-center'>
-    
-                  <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Invoice (Powered by Checkbook.io)</p>
+      <form onSubmit={handleSubmit} class="row g-3">
+        <div class="col-md-6">
+          <label for="exampleInputEmail1" class="form-label">Your Name</label>
+          <input onChange={(e) => setName(e.target.value)} type="text" class="form-control" id="InputName" aria-describedby="emailHelp" />
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
 
-                  <p> </p>
+        <div>{' '}</div>
 
-                  <div className="d-flex flex-row align-items-left mb-4 ">
-                    <MDBIcon fas icon="user me-3" size='lg'/>
-                    <MDBInput placeholder="Your Name" label='Your Name' id='form1' type='text' className='w-100' onChange={(e) => setName(e.target.value)}/>
-                  </div>
+        <div class="col-md-6">
+          <label for="exampleInputEmail1" class="form-label">Recipient Email</label>
+          <input onChange={(e) => setEmail(e.target.value)} type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" />
+        </div>
 
-                  <p> </p>
-    
-                  <div className="d-flex flex-row align-items-left mb-4">
-                    <MDBIcon fas icon="envelope me-3" size='lg'/>
-                    <MDBInput placeholder="Recipient Email" label='Recipient Email' id='form2' type='email' onChange={(e) => setEmail(e.target.value)}/>
-                  </div>
+        <div>{' '}</div>
 
-                  <p> </p>
-    
-                  <div className="d-flex flex-row align-items-left mb-4">
-                    <MDBIcon fas icon="lock me-3" size='lg'/>
-                    <MDBInput placeholder="Amount" label='Amount' id='form3' type='number' onChange={(e) => setAmount(e.target.value)}/>
-                  </div>
+        <div class="col-md-6">
+          <label for="exampleInputPassword1" class="form-label">Amount</label>
+          <input onChange={(e) => setAmount(e.target.value)} type="number" class="form-control" id="InputAmount" />
+        </div>
 
-                  <p> </p>
-    
-                  <div className="d-flex flex-row align-items-left mb-4">
-                    <MDBIcon fas icon="key me-3" size='lg'/>
-                    <MDBInput placeholder="Description" label='Description' id='form4' type='text' onChange={(e) => setDescription(e.target.value)}/>
-                  </div>
+        <div>{' '}</div>
 
-                  <p> </p>
-    
-                  <MDBBtn className='mb-4' size='lg' onSubmit={handleSubmit}>Send Invoice</MDBBtn>
-    
-                </MDBCol>
-    
-              </MDBRow>
-            </MDBCardBody>
-          </MDBCard>
-    
-        </MDBContainer>
-      );
+        <div class="col-md-6">
+          <label for="exampleInputEmail1" class="form-label">Description</label>
+          <input onChange={(e) => setDescription(e.target.value)} type="text" class="form-control" id="InputDescription" aria-describedby="emailHelp" />
+        </div>
+
+        <div>{' '}</div>
+
+        <button type="submit" class="btn btn-primary" >Submit</button>
+      </form>
+    );
 }
