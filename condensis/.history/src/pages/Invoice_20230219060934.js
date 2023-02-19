@@ -1,8 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Styles/Invoice.css";
-import { CFormLabel,  CFormText, CFormInput, CForm, CButton } from '@coreui/react';
-import '@coreui/coreui/dist/css/coreui.min.css';
+import { CCard, CCardImage, CCardBody, CCardTitle, CCardText, CButton, CCardHeader, CFormLabel,  CFormText, CFormInput, CForm } from '@coreui/react';
 
 
 
@@ -51,21 +50,28 @@ export default function Invoice() {
           <CFormInput onChange={(e) => setEmail(e.target.value)} type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" />
         </div>
 
+        <CFormCheck
+          className="mb3"
+          label="Check me out"
+          onChange={(e) => {
+            console.log(e.target)
+          } }/>
+
         <div class="col-md-6">
-          <CFormLabel for="exampleInputPassword1" class="form-label">Amount</CFormLabel>
-          <CFormInput onChange={(e) => setAmount(e.target.value)} type="number" class="form-control" id="InputAmount" />
+          <CFormLabel for="exampleInputPassword1" class="form-label">Amount</CFormLlbel>
+          <input onChange={(e) => setAmount(e.target.value)} type="number" class="form-control" id="InputAmount" />
         </div>
 
         <div>{' '}</div>
 
         <div class="col-md-6">
-          <CFormLabel for="exampleInputEmail1" class="form-label">Description</CFormLabel>
-          <CFormInput onChange={(e) => setDescription(e.target.value)} type="text" class="form-control" id="InputDescription" aria-describedby="emailHelp" />
+          <label for="exampleInputEmail1" class="form-label">Description</label>
+          <input onChange={(e) => setDescription(e.target.value)} type="text" class="form-control" id="InputDescription" aria-describedby="emailHelp" />
         </div>
 
         <div>{' '}</div>
 
-        <CButton type="submit" class="btn btn-primary" >Submit</CButton>
-      </CForm>
+        <button type="submit" class="btn btn-primary" >Submit</button>
+      </form>
     );
 }

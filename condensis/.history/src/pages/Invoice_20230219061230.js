@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Styles/Invoice.css";
-import { CFormLabel,  CFormText, CFormInput, CForm, CButton } from '@coreui/react';
+import { CFormLabel,  CFormText, CFormInput, CForm } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css';
 
 
@@ -65,7 +65,7 @@ export default function Invoice() {
 
         <div>{' '}</div>
 
-        <CButton type="submit" class="btn btn-primary" >Submit</CButton>
+        <CFormButton type="submit" class="btn btn-primary" >Submit</button>
       </CForm>
     );
 }

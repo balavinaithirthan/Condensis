@@ -1,8 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Styles/Invoice.css";
-import { CFormLabel,  CFormText, CFormInput, CForm, CButton } from '@coreui/react';
-import '@coreui/coreui/dist/css/coreui.min.css';
+import { CCard, CCardImage, CCardBody, CCardTitle, CCardText, CButton, CCardHeader, CFormLabel,  CFormText, CFormInput, CForm } from '@coreui/react';
 
 
 
@@ -59,13 +58,13 @@ export default function Invoice() {
         <div>{' '}</div>
 
         <div class="col-md-6">
-          <CFormLabel for="exampleInputEmail1" class="form-label">Description</CFormLabel>
-          <CFormInput onChange={(e) => setDescription(e.target.value)} type="text" class="form-control" id="InputDescription" aria-describedby="emailHelp" />
+          <label for="exampleInputEmail1" class="form-label">Description</label>
+          <input onChange={(e) => setDescription(e.target.value)} type="text" class="form-control" id="InputDescription" aria-describedby="emailHelp" />
         </div>
 
         <div>{' '}</div>
 
-        <CButton type="submit" class="btn btn-primary" >Submit</CButton>
+        <button type="submit" class="btn btn-primary" >Submit</button>
       </CForm>
     );
 }
