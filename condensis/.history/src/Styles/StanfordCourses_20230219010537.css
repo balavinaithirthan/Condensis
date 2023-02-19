@@ -1,0 +1,17 @@
+#stanfordtitle {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0px;
+    color: black;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+#courses {
+    padding: 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}

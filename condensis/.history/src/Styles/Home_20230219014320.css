@@ -1,0 +1,17 @@
+
+
+#collegeselect {
+    text-align: center;
+    padding: 0px;
+    color: black;
+    position: relative;
+    top: 280px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#search {
+    position:relative;
+    padding-top: 15px;
+    bottom: 220px;
+}

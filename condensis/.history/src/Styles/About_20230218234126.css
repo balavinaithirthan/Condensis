@@ -1,0 +1,10 @@
+#about {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 50px;
+    color: black;
+}
+
+#about-p {
+    font-size: 25pt;
+}
